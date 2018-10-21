@@ -24,7 +24,7 @@ Then you can import any video files from under that module (see [`VideoStutter.j
 
 ## How to configure the jump interval
 
-There are constants at the top of [`VideoStutter.js`](src/components/VideoStutter.js)) where you can set a tempo in BPM. 
+There are constants at the top of [`VideoStutter.js`](src/components/VideoStutter.js) where you can set a tempo in BPM. 
 
 #### built using _Create React App_
 
