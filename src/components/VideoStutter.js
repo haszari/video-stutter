@@ -32,7 +32,6 @@ class VideoStutter extends Component {
 
   stutterOnce() {
     this.video.current.currentTime = (Math.random() * this.video.current.duration);
-    this.video.current.currentTime = this.video.current.currentTime - (Math.random() * 2);
     this.video.current.playbackRate = 0.2 + Math.random() * 1.3;
   }
 
