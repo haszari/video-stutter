@@ -7,7 +7,7 @@ A very basic app to play a single video file forever, jumping to a random positi
 
 - clone this repo
 - set up some video file(s) (see below)
-- hack [`VideoStutter.js`](components/VideoStutter.js) to import your video
+- hack [`VideoStutter.js`](src/components/VideoStutter.js) to import your video
 - `yarn start`
 
 ## Why
@@ -20,11 +20,11 @@ Short version: `npm install <folder>`
 
 The video files need to be importable using `npm import`. I set this up by making a folder elsewhere on my disk with some video files, adding a basic `package.json` file, and then installing that as symlinked npm module.
 
-Then you can import any video files from under that module (see [`VideoStutter.js`](components/VideoStutter.js)).
+Then you can import any video files from under that module (see [`VideoStutter.js`](src/components/VideoStutter.js)).
 
 ## How to configure the jump interval
 
-There are constants at the top of [`VideoStutter.js`](components/VideoStutter.js)) where you can set a tempo in BPM. 
+There are constants at the top of [`VideoStutter.js`](src/components/VideoStutter.js)) where you can set a tempo in BPM. 
 
 #### built using _Create React App_
 
